@@ -24,10 +24,11 @@ h4{
   color: white;
 }
 
-h5{font-size: 11px;
-color: white;
-text-align: left;
-font-weight: bold;
+h5{
+  font-size: 11px;
+  text-align: left;
+  font-weight: bold;
+  color: white;
 }
 
 p{
@@ -50,6 +51,17 @@ a{
   color: white;
 }
 
-footer{
+.footer-nav ul li {
+  color: white;
+  list-style-type: none;
+  display: inline;
+}
+
+.footer-nav a {
+  color: white;
+}
+
+footer {
   background-color: dimgray;
-  }
+  text-align: left;
+}
